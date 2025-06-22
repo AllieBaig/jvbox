@@ -9,8 +9,8 @@
  * Timestamp: 2025-06-22 10:05 | File: js/sceneSetup.js
  */
 
-import * as THREE from '../libs/three.module.min.js';
-import { OrbitControls } from '../libs/OrbitControls.js';
+import * as THREE from '../js/libs/three.module.min.js';
+import { OrbitControls } from '../js/libs/OrbitControls.js';
 
 export let scene, camera, renderer, controls;
 
