@@ -9,7 +9,7 @@
  * Timestamp: 2025-06-22 10:15 | File: js/joystickControls.js
  */
 
-import nipplejs from '../libs/nipplejs.module.js';
+import nipplejs from '../js/libs/nipplejs.module.js';
 
 export const joystickState = {
     forward: false,
