@@ -9,7 +9,7 @@
  * Timestamp: 2025-06-22 10:40 | File: js/townBuilder.js
  */
 
-import * as THREE from '../libs/three.module.min.js';
+import * as THREE from '../js/libs/three.module.min.js';
 import { scene } from './sceneSetup.js';
 
 export function generateTown() {
