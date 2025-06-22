@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRBox v10</title>
+    <meta name="description" content="VRBox v10 - Reinforcement Learning 3D Sandbox">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        #uiOverlay {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none;
+        }
+        #buttonsPanel {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            pointer-events: auto;
+        }
+        button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+        }
+        #joystickContainer {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: 150px;
+            height: 150px;
+            pointer-events: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="renderCanvas"></canvas>
+
+    <div id="uiOverlay">
+        <div id="buttonsPanel">
+            <button id="recordBtn">Record</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+        <div id="joystickContainer"></div>
+    </div>
+
+    <!-- External Libraries -->
+    <script type="module" src="js/libs/three.module.min.js"></script>
+    <script type="module" src="js/libs/OrbitControls.js"></script>
+    <script src="js/libs/nipplejs.min.js"></script>
+
+    <!-- Wrappers & Modules -->
+    <script type="module" src="js/libs/nipplejs.module.js"></script>
+    <script type="module" src="js/main.js"></script>
+
+</body>
+</html>
