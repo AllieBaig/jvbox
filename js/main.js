@@ -10,6 +10,8 @@
  */
 
 import { setupScene, scene, camera, renderer } from './sceneSetup.js';
+import { generateTown } from './townBuilder.js';
+
 import { setupControls, keyboardState } from './controls.js';
 import { setupJoystick, joystickState } from './joystickControls.js';
 import { createHumanoid, humanoid } from './humanoid.js';
@@ -20,6 +22,7 @@ async function init() {
     console.log("[VRBox] Initialization started.");
 
     setupScene();
+    generateTown();
     setupControls();
     setupJoystick();
     createHumanoid();
