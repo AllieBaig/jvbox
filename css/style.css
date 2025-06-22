@@ -1,0 +1,87 @@
+
+/**
+ * Purpose: Global style for VRBox v10 — fully mobile-friendly, iOS-optimized.
+ * Key features: Safe area support, touch-friendly buttons, fullscreen canvas rendering.
+ * Dependencies: index.html
+ * Related helpers: full project
+ * Function names: (N/A - pure CSS)
+ * MIT License: https://github.com/[new-repo-path]/LICENSE
+ * Timestamp: 2025-06-22 10:30 | File: css/style.css
+ */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-overflow-scrolling: touch;
+    touch-action: none;
+}
+
+canvas#renderCanvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: env(safe-area-inset-top, 0);
+    left: env(safe-area-inset-left, 0);
+    right: env(safe-area-inset-right, 0);
+    bottom: env(safe-area-inset-bottom, 0);
+}
+
+#uiOverlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#buttonsPanel {
+    position: absolute;
+    top: calc(10px + env(safe-area-inset-top));
+    right: calc(10px + env(safe-area-inset-right));
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    pointer-events: auto;
+    z-index: 10;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 15px 25px;
+    border-radius: 14px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    touch-action: manipulation;
+}
+
+#joystickContainer {
+    position: absolute;
+    bottom: calc(20px + env(safe-area-inset-bottom));
+    left: calc(20px + env(safe-area-inset-left));
+    width: 160px;
+    height: 160px;
+    pointer-events: auto;
+    z-index: 10;
+}
+
+button:active {
+    background-color: #555;
+    transform: scale(0.95);
+    transition: transform 0.1s;
+}
+
+/* Prevent double-tap zoom on iOS */
+body {
+    touch-action: manipulation;
+}
