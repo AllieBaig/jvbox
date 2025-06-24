@@ -9,7 +9,8 @@
  * Timestamp: 2025-06-22 13:45 | File: js/main.js
  */
 
-import { setupScene, scene, camera, renderer } from './sceneSetup.js';
+import { setupScene, scene, renderer } from './sceneSetup.js';
+import { camera } from './cameraSetup.js';
 import { generateTown } from './assetBasedTownBuilder.js';
 import { setupControls, keyboardState } from './controls.js';
 import { setupJoystick, joystickState } from './joystickControls.js';
