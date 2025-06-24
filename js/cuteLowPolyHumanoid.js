@@ -10,7 +10,7 @@
  * Timestamp: 2025-06-22 17:20 | File: js/cuteLowPolyHumanoid.js
  */
 
-import * as THREE from '../libs/three.module.min.js';
+import * as THREE from '../js/libs/three.module.min.js';
 import { scene } from './sceneSetup.js';
 
 export function createCuteHumanoid(position = {x: 0, y: 0, z: 0}) {
