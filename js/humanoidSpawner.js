@@ -10,7 +10,7 @@
  * Timestamp: 2025-06-22 13:00 | File: js/humanoidSpawner.js
  */
 
-import * as THREE from '../libs/three.module.min.js';
+import * as THREE from '../js/libs/three.module.min.js';
 import { scene } from './sceneSetup.js';
 
 export let humanoidPopulation = [];
