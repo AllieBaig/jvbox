@@ -1,5 +1,34 @@
 {
-  "houses": [],
-  "trees": [],
-  "props": []
+  "houses": [
+    "assets/towns/town2/houses/Building B.glb",
+    "assets/towns/town2/houses/Building-7lMEpT2ICD.glb",
+    "assets/towns/town2/houses/Building-T3oyvK6VEU.glb",
+    "assets/towns/town2/houses/Building-bbH2Bg73qM.glb",
+    "assets/towns/town2/houses/Building-g15lpKh4li.glb",
+    "assets/towns/town2/houses/Building-otRsYa6pan.glb",
+    "assets/towns/town2/houses/Building-qOhhGLftam.glb",
+    "assets/towns/town2/houses/Building.glb"
+  ],
+  "trees": [
+    "assets/towns/town2/trees/Bush.glb"
+  ],
+  "props": [
+    "assets/towns/town2/props/Base.glb",
+    "assets/towns/town2/props/Bench.glb",
+    "assets/towns/town2/props/Box B.glb",
+    "assets/towns/town2/props/Box.glb",
+    "assets/towns/town2/props/Car Hatchback.glb",
+    "assets/towns/town2/props/Dumpster.glb",
+    "assets/towns/town2/props/Fire Hydrant.glb",
+    "assets/towns/town2/props/Police Car.glb",
+    "assets/towns/town2/props/Road Bits.glb",
+    "assets/towns/town2/props/Rocks.glb",
+    "assets/towns/town2/props/Stationwagon.glb",
+    "assets/towns/town2/props/Streetlight.glb",
+    "assets/towns/town2/props/Taxi.glb",
+    "assets/towns/town2/props/Traffic light-Q6k7Izx6YD.glb",
+    "assets/towns/town2/props/Traffic light.glb",
+    "assets/towns/town2/props/Trafficlight B.glb",
+    "assets/towns/town2/props/Watertower.glb"
+  ]
 }
