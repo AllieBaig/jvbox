@@ -18,7 +18,7 @@ import { createHumanoid, humanoid } from './humanoid.js';
 import { setupRecorder, recorder } from './recorder.js';
 
 // 🔧 Hardcoded town selection for now
-const ACTIVE_TOWN = 'town2';
+const ACTIVE_TOWN = 'town1';
 
 async function init() {
     console.log("[VRBox] Initialization started.");
