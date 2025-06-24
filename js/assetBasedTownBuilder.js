@@ -77,7 +77,8 @@ function addRandomAsset(assetArray, x, z) {
                 z + (Math.random() - 0.5) * 2
             );
             model.rotation.y = Math.random() * Math.PI * 2;
-            model.scale.setScalar(1);
+            //model.scale.setScalar(1);
+            model.scale.setScalar(0.2);
             scene.add(model);
             resolve();
         }, undefined, (err) => {
