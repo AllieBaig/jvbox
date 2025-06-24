@@ -1,17 +1,59 @@
-
 {
   "houses": [
-    "assets/towns/town1/houses/house1.glb",
-    "assets/towns/town1/houses/house2.glb",
-    "assets/towns/town1/houses/house3.glb"
+    "assets/towns/town1/houses/Big Building.glb",
+    "assets/towns/town1/houses/Brown Building.glb",
+    "assets/towns/town1/houses/Building Green.glb",
+    "assets/towns/town1/houses/Building Red Corner.glb",
+    "assets/towns/town1/houses/Building Red.glb",
+    "assets/towns/town1/houses/Greenhouse.glb"
   ],
   "trees": [
-    "assets/towns/town1/trees/tree1.glb",
-    "assets/towns/town1/trees/tree2.glb"
+    "assets/towns/town1/trees/Flower Pot-Kgt363WkKd.glb",
+    "assets/towns/town1/trees/Flower Pot.glb",
+    "assets/towns/town1/trees/Tree.glb"
   ],
   "props": [
-    "assets/towns/town1/props/bench1.glb",
-    "assets/towns/town1/props/car1.glb",
-    "assets/towns/town1/props/streetlight1.glb"
+    "assets/towns/town1/props/ATM.glb",
+    "assets/towns/town1/props/Air conditioner.glb",
+    "assets/towns/town1/props/Bench.glb",
+    "assets/towns/town1/props/Billboard.glb",
+    "assets/towns/town1/props/Box.glb",
+    "assets/towns/town1/props/Bus Stop.glb",
+    "assets/towns/town1/props/Bus stop sign.glb",
+    "assets/towns/town1/props/Bus.glb",
+    "assets/towns/town1/props/Car-unqqkULtRU.glb",
+    "assets/towns/town1/props/Car.glb",
+    "assets/towns/town1/props/Cone.glb",
+    "assets/towns/town1/props/Debris Papers.glb",
+    "assets/towns/town1/props/Dumpster.glb",
+    "assets/towns/town1/props/Fence End.glb",
+    "assets/towns/town1/props/Fence Piece.glb",
+    "assets/towns/town1/props/Fence.glb",
+    "assets/towns/town1/props/Fire Exit.glb",
+    "assets/towns/town1/props/Fire hydrant.glb",
+    "assets/towns/town1/props/Floor Hole.glb",
+    "assets/towns/town1/props/Gb Blank.glb",
+    "assets/towns/town1/props/Mailbox.glb",
+    "assets/towns/town1/props/Man.glb",
+    "assets/towns/town1/props/Manhole Cover.glb",
+    "assets/towns/town1/props/Motorcycle.glb",
+    "assets/towns/town1/props/Pickup Truck.glb",
+    "assets/towns/town1/props/Pizza Corner.glb",
+    "assets/towns/town1/props/Police Car.glb",
+    "assets/towns/town1/props/Power Box.glb",
+    "assets/towns/town1/props/RB Blank.glb",
+    "assets/towns/town1/props/Road Bits.glb",
+    "assets/towns/town1/props/Rock band poster.glb",
+    "assets/towns/town1/props/Roof Exit.glb",
+    "assets/towns/town1/props/SUV.glb",
+    "assets/towns/town1/props/Sports Car-Gzj704DXdr.glb",
+    "assets/towns/town1/props/Sports Car.glb",
+    "assets/towns/town1/props/Stop sign.glb",
+    "assets/towns/town1/props/Traffic Light.glb",
+    "assets/towns/town1/props/Trash Can.glb",
+    "assets/towns/town1/props/Van.glb",
+    "assets/towns/town1/props/Washing Line.glb",
+    "assets/towns/town1/props/Yellow Post-it.glb",
+    "assets/towns/town1/props/trah bag grey.glb"
   ]
 }
