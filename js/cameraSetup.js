@@ -9,8 +9,8 @@
  * Timestamp: 2025-06-22 14:00 | File: js/cameraSetup.js
  */
 
-import * as THREE from '../libs/three.module.min.js';
-import { OrbitControls } from '../libs/OrbitControls.js';
+import * as THREE from '../js/libs/three.module.min.js';
+import { OrbitControls } from '../js/libs/OrbitControls.js';
 
 export let camera, controls;
 
