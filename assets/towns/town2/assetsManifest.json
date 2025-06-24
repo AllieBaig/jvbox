@@ -1,19 +1,5 @@
-
-
 {
-  "houses": [
-    "assets/towns/town1/houses/house1.glb",
-    "assets/towns/town1/houses/house2.glb",
-    "assets/towns/town1/houses/house3.glb"
-  ],
-  "trees": [
-    "assets/towns/town1/trees/tree1.glb",
-    "assets/towns/town1/trees/tree2.glb"
-  ],
-  "props": [
-    "assets/towns/town1/props/bench1.glb",
-    "assets/towns/town1/props/car1.glb",
-    "assets/towns/town1/props/streetlight1.glb"
-  ]
+  "houses": [],
+  "trees": [],
+  "props": []
 }
-
