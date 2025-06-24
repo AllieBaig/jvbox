@@ -1,0 +1,15 @@
+
+{
+  "houses": [
+    "assets/models/houses/house1.glb",
+    "assets/models/houses/house2.glb"
+  ],
+  "trees": [
+    "assets/models/trees/tree1.glb",
+    "assets/models/trees/tree2.glb"
+  ],
+  "props": [
+    "assets/models/props/car1.glb",
+    "assets/models/props/bench1.glb"
+  ]
+}
