@@ -10,8 +10,8 @@
  * Timestamp: 2025-06-25 13:00 | File: js/carSpawner.js
  */
 
-import * as THREE from './js/libs/three.module.min.js';
-import { GLTFLoader } from './js/libs/GLTFLoader.js';
+import * as THREE from '../libs/three.module.min.js';
+import { GLTFLoader } from '../libs/GLTFLoader.js';
 import { applyRandomColor } from './colorRandomizer.js';
 
 export class CarSpawner {
