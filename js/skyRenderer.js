@@ -9,7 +9,7 @@
  * Timestamp: 2025-06-25 12:50 | File: js/skyRenderer.js
  */
 
-import * as THREE from './js/libs/three.module.min.js';
+import * as THREE from './libs/three.module.min.js';
 
 export function addGradientSky(scene) {
     const skyGeometry = new THREE.SphereGeometry(500, 32, 15);
