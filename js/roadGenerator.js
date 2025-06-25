@@ -9,7 +9,7 @@
  * Timestamp: 2025-06-25 12:45 | File: js/roadGenerator.js
  */
 
-import * as THREE from './libs/three.module.min.js';
+import * as THREE from './js/libs/three.module.min.js';
 
 export function generateRoadGrid(scene, gridSize = 50, cellSize = 10) {
     const roadMaterial = new THREE.MeshStandardMaterial({ color: 0x333333 });
