@@ -10,9 +10,9 @@
  * Timestamp: 2025-06-25 12:30 | File: js/modules/houseSpawner.js
  */
 
-import * as THREE from '../libs/three.module.min.js';
-import { GLTFLoader } from '../libs/GLTFLoader.js';
-import { applyRandomColor } from '../utils/colorRandomizer.js';
+import * as THREE from '../js/libs/three.module.min.js';
+import { GLTFLoader } from '../js/libs/GLTFLoader.js';
+import { applyRandomColor } from './colorRandomizer.js';
 
 export class HouseSpawner {
     constructor(scene, activeTown) {
