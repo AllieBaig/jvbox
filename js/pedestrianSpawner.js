@@ -9,8 +9,8 @@
  * Timestamp: 2025-06-25 13:15 | File: js/pedestrianSpawner.js
  */
 
-import * as THREE from './js/libs/three.module.min.js';
-import { GLTFLoader } from './js/libs/GLTFLoader.js';
+import * as THREE from './libs/three.module.min.js';
+import { GLTFLoader } from './libs/GLTFLoader.js';
 
 export class PedestrianSpawner {
     constructor(scene, activeTown) {
