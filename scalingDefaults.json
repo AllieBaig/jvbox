@@ -1,7 +1,9 @@
+
 {
   "humanoidHeight": 2.0,
   "houses": 10.0,
   "trees": 8.0,
-  "props": 1.5
+  "props": 1.5,
+  "cars": 1.6
 }
 
