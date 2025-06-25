@@ -20,7 +20,9 @@ const OUTPUT_MANIFEST = path.join(ROOT_DIR, 'assetsManifest.json');
 const OUTPUT_SCALING = path.join(ROOT_DIR, 'scalingConfig.json');
 const DEFAULTS_FILE = 'scalingDefaults.json';
 
-const SUBFOLDERS = ['houses', 'trees', 'props'];
+//const SUBFOLDERS = ['houses', 'trees', 'props'];
+const SUBFOLDERS = ['cars', 'houses', 'props', 'trees'];
+
 
 // Safe sanity clamp thresholds (in meters)
 const MIN_HEIGHT = 0.1;
