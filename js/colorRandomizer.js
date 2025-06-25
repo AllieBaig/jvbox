@@ -7,6 +7,9 @@
  * Timestamp: 2025-06-25 12:25 | File: js/utils/colorRandomizer.js
  */
 
+import * as THREE from './libs/three.module.min.js';
+
+
 export function applyRandomColor(model, baseSaturation = 0.5, baseLightness = 0.6) {
     const randomHue = Math.random(); // Random hue for variety
     const randomColor = new THREE.Color().setHSL(randomHue, baseSaturation, baseLightness);
