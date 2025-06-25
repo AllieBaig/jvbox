@@ -5,8 +5,18 @@
   "assets/towns/town1/houses/Building Red Corner.glb": 2,
   "assets/towns/town1/houses/Building Red.glb": 2,
   "assets/towns/town1/houses/Greenhouse.glb": 0.325,
-  "assets/towns/town1/props/Bus Stop.glb": 0.049,
   "assets/towns/town1/trees/Flower Pot-Kgt363WkKd.glb": 0.135,
   "assets/towns/town1/trees/Flower Pot.glb": 0.138,
-  "assets/towns/town1/trees/Tree.glb": 0.005
+  "assets/towns/town1/trees/Tree.glb": 0.005,
+  "assets/towns/town1/props/Bus Stop.glb": 0.049,
+  "assets/towns/town1/cars/Bus.glb": 0.026,
+  "assets/towns/town1/cars/Car-unqqkULtRU.glb": 1.091,
+  "assets/towns/town1/cars/Car.glb": 1.062,
+  "assets/towns/town1/cars/Motorcycle.glb": 0.025,
+  "assets/towns/town1/cars/Pickup Truck.glb": 12.5,
+  "assets/towns/town1/cars/Police Car.glb": 1.009,
+  "assets/towns/town1/cars/SUV.glb": 0.818,
+  "assets/towns/town1/cars/Sports Car-Gzj704DXdr.glb": 12.5,
+  "assets/towns/town1/cars/Sports Car.glb": 1.039,
+  "assets/towns/town1/cars/Van.glb": 0.036
 }

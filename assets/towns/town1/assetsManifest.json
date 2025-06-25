@@ -14,5 +14,17 @@
   ],
   "props": [
     "assets/towns/town1/props/Bus Stop.glb"
+  ],
+  "cars": [
+    "assets/towns/town1/cars/Bus.glb",
+    "assets/towns/town1/cars/Car-unqqkULtRU.glb",
+    "assets/towns/town1/cars/Car.glb",
+    "assets/towns/town1/cars/Motorcycle.glb",
+    "assets/towns/town1/cars/Pickup Truck.glb",
+    "assets/towns/town1/cars/Police Car.glb",
+    "assets/towns/town1/cars/SUV.glb",
+    "assets/towns/town1/cars/Sports Car-Gzj704DXdr.glb",
+    "assets/towns/town1/cars/Sports Car.glb",
+    "assets/towns/town1/cars/Van.glb"
   ]
 }
