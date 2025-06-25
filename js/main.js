@@ -7,8 +7,8 @@
  * Timestamp: 2025-06-25 13:20 | File: js/main.js
  */
 
-import * as THREE from './js/libs/three.module.min.js';
-import { OrbitControls } from './js/libs/OrbitControls.js';
+import * as THREE from '../js/libs/three.module.min.js';
+import { OrbitControls } from '../js/libs/OrbitControls.js';
 
 import { addGradientSky } from './skyRenderer.js';
 import { generateRoadGrid } from './roadGenerator.js';
