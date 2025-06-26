@@ -58,7 +58,7 @@ function init() {
     // World Modules
     environment = new Environment(scene);
     road = new Road(scene);
-    houseSpawner = new HouseSpawner(scene, CONFIG.house);
+    houseSpawner = new HouseSpawner(scene, config.house);
 
     // Resize
     window.addEventListener('resize', onWindowResize);
