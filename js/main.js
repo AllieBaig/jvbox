@@ -17,7 +17,7 @@ import { OrbitControls } from './libs/OrbitControls.js';
 import { Environment } from './environment.js';
 import { HouseSpawner } from './houseSpawner.js';
 import { Road } from './road.js';
-import { CONFIG } from './config.js';
+import { config } from './config.js';
 
 let scene, camera, renderer, controls;
 let clock, environment, road, houseSpawner;
