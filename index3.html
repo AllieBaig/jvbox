@@ -1,0 +1,61 @@
+
+
+<!--
+LingoQ2 Procedural Scene | MIT License: https://github.com/jvbox/LICENSE
+Author: jvbox
+Timestamp: 2025-06-25 13:50 | File: index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Procedural Town</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000;
+      font-family: sans-serif;
+    }
+    #container {
+      width: 100vw;
+      height: 100vh;
+      display: block;
+      position: relative;
+    }
+    #loading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.2rem;
+      color: white;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="loading">Loading environment...</div>
+  </div>
+
+  <!-- THREE.js Core -->
+  <script type="module" src="./js/libs/three.module.min.js"></script>
+  <script type="module" src="./js/libs/OrbitControls.js"></script>
+
+  <!-- Scene Components -->
+  <script type="module" src="./js/config.js"></script>
+  <script type="module" src="./js/manualHouse.js"></script>
+  <script type="module" src="./js/houseSpawner.js"></script>
+  <script type="module" src="./js/road.js"></script>
+  <script type="module" src="./js/environment.js"></script>
+
+  <!-- Main Bootstrap -->
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
+
+
