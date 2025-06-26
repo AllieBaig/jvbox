@@ -9,7 +9,7 @@
  * Timestamp: 2025-06-25 21:10 | File: js/houseSpawner.js
  */
 
-import { ManualHouse } from './manualHouse.js';
+import { createManualHouse } from './manualHouse.js';
 import { applyRandomColor } from './colorRandomizer.js';
 import { config } from './config.js';
 
