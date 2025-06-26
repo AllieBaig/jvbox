@@ -161,8 +161,8 @@ export class Road {
         const lightGeometry = new THREE.SphereGeometry(0.5);  
         const lightMaterial = new THREE.MeshBasicMaterial({  
             color: 0xffffaa,  
-            emissive: 0xffffaa,  
-            emissiveIntensity: 0.3  
+            //emissive: 0xffffaa,  
+            //emissiveIntensity: 0.3  
         });  
           
         // Create street lights along the road  
