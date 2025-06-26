@@ -1,4 +1,7 @@
 
+import * as THREE from './libs/three.module.min.js';
+
+
 export class Road {  
     constructor(scene) {  
         this.scene = scene;  
